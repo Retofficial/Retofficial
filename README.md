@@ -44,4 +44,3 @@ No CS degree. No bootcamps. Came from construction and welding. Learned to build
 **Contact**
 
 - Email: elisei.dev@proton.me
-- Telegram: @jjuussttoonneee
