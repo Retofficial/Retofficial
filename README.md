@@ -1,20 +1,27 @@
 ### Hey, I'm Elisei
-Self-taught developer working on **machine learning for high-frequency trading** — from feature engineering to model training to production inference.
+
+Trader and quant analyst building trading systems for crypto derivatives.
+
+1.5 years of hands-on scalping on crypto derivatives. I understand market
+microstructure from the inside — order flow, liquidations, funding, 
+execution costs, types of orders.
+
+Now I design and build trading systems end-to-end using AI-native development:
+I make the architectural decisions, do the diagnosis, and validate outcomes,
+while LLMs accelerate implementation.
 
 ---
 
 **What I work on**
 
-An ML-driven trading system for **OKX USDT-M futures**, focused on learning from market microstructure and predicting short-horizon price behavior.
+An ML-driven trading system for **OKX USDT-M futures** — from order book
+ingestion to model-based entry decisions.
 
-Core focus areas:
-- **Feature engineering** from order book, trades, and BBO streams
-- **Model training** with walk-forward validation, grouped splits, and bootstrap CI
-- **Realistic evaluation** — PnL simulation, threshold search over pass-rates
-- **Feature interpretation** via SHAP, stability checks across seeds and folds
-- **Deployment path** — models compiled to Treelite for sub-millisecond inference
-
-C++ infrastructure (WebSocket ingestion, order book, execution pipeline) supports the ML layer.
+Focus areas:
+- **Market microstructure** — order flow, imbalance, liquidation cascades
+- **ML for trading** — model design, validation, realistic PnL simulation
+- **System design** — how to structure data, features, and evaluation
+- **AI-native development** — building functional systems through LLM workflows
 
 **Featured project:** [trading_bot](https://github.com/Retofficial/trading_bot)
 
@@ -22,22 +29,24 @@ C++ infrastructure (WebSocket ingestion, order book, execution pipeline) support
 
 **Stack**
 
-**ML:** `LightGBM` `SHAP` `Treelite` `Python` `pandas` `numpy` `scikit-learn`
-**Infrastructure:** `C++17` `Boost.Asio` `Boost.Beast` `simdjson` `Eigen` `CMake`
+`Python` `LightGBM` `pandas` `numpy` `SHAP`
+`C++ (AI-assisted)` `SQL (basic)` `Git`
 
 ---
 
 **How I got here**
 
-No CS degree. No bootcamps. Came from construction and welding. Learned to build systems that had to work — and one of them had to trade.
+No CS degree. No bootcamps. Came from construction and welding. 
+Learned to build systems that had to work — and one of them had to trade.
 
 ---
 
 **Currently**
 
-- Improving entry precision for a spike-fading strategy via regression on log(1+MFE)
+- Building and validating an ML entry model for a spike-fading strategy
 - Studying market microstructure, applied statistics, and quantitative finance
-- Open to ML / quant research opportunities (remote)
+- Open to **Trading Systems Analyst / Quant Analyst** roles, plus adjacent
+  roles where domain experience and AI-native development are valued
 
 ---
 
